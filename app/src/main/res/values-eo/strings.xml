@@ -73,19 +73,19 @@
     <string name="text_generic_xmrto_error">Kodo: %1$d</string>
 
     <string name="text_retry">Tuŝi por reprovi</string>
-    <string name="text_noretry_monero">Now we\'re stuck here!]</string>
+    <string name="text_noretry_monero">Nun ni kaptitas ĉi tie!]</string>
     <string name="text_noretry">Ho ve, XMR.TO verŝajne ne disponeblas ĝuste nun!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Rate: %1$s BTC/XMR)</string>
+    <string name="text_send_btc_rate">(Kurzo: %1$s BTC/XMR)</string>
 
-    <string name="label_send_settings_advanced">Advanced:</string>
+    <string name="label_send_settings_advanced">Altnivele:</string>
 
-    <string name="label_send_btc_xmrto_info">Visit xmr.to for support &amp; tracking</string>
-    <string name="label_send_btc_xmrto_key_lb">Secret Key\nXMR.TO</string>
-    <string name="label_send_btc_xmrto_key">XMR.TO Secret Key</string>
-    <string name="label_send_btc_address">Destination BTC Address</string>
-    <string name="label_send_btc_amount">Amount</string>
+    <string name="label_send_btc_xmrto_info">Viziti al xmr.to por helpon &amp; mendostatojn</string>
+    <string name="label_send_btc_xmrto_key_lb">Sekreta Ŝlosilo\nXMR.TO</string>
+    <string name="label_send_btc_xmrto_key">Sekreta Ŝlosilo de XMR.TO</string>
+    <string name="label_send_btc_address">Ricevonta adreso de BTC</string>
+    <string name="label_send_btc_amount">Sumo</string>
 
     <string name="label_send_txid">Transaction ID</string>
     <string name="label_send_address">Destination Address</string>
