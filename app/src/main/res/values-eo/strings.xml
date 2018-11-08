@@ -1,82 +1,80 @@
-<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-    <string name="app_name" translatable="false">monerujo</string>
-    <string name="wallet_activity_name">Wallet</string>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="eo">
+    <string name="wallet_activity_name">Monujo</string>
 
-    <string name="menu_stagenet" translatable="false">Stagenet</string>
-    <string name="menu_about">About</string>
-    <string name="menu_privacy">Privacy Policy</string>
+    <string name="menu_about">Pri</string>
+    <string name="menu_privacy">Privateca Politiko</string>
 
-    <string name="menu_share">Share</string>
-    <string name="menu_help">Help</string>
-    <string name="menu_receive">Receive</string>
-    <string name="menu_rename">Rename &#8230;</string>
-    <string name="menu_archive">Archive</string>
-    <string name="menu_backup">Backup</string>
-    <string name="menu_changepw">Change Passphrase</string>
+    <string name="menu_share">Dividi</string>
+    <string name="menu_help">Helpon</string>
+    <string name="menu_receive">Ricevi</string>
+    <string name="menu_rename">Alinomigi &#8230;</string>
+    <string name="menu_archive">Arkivi</string>
+    <string name="menu_backup">Sekurkopii</string>
+    <string name="menu_changepw">Ŝanĝi pasfrazon</string>
 
-    <string name="password_weak">Continue typing &#8230;</string>
-    <string name="password_fair">Meh &#8230;</string>
-    <string name="password_good">C\'mon, you can do better!</string>
-    <string name="password_strong">Getting there &#8230;</string>
-    <string name="password_very_strong">Yeah baby, h4x0r style!</string>
+    <string name="password_weak">Daŭrigu la tajpadon.. &#8230;</string>
+    <string name="password_fair">Bonete &#8230;</string>
+    <string name="password_good">Vi povas elpensi pli bonan!</string>
+    <string name="password_strong">Iom pli bone.. &#8230;</string>
+    <string name="password_very_strong">Ho jes, superhakistece</string>
 
-    <string name="label_login_wallets">Wallets</string>
-    <string name="label_credits">Credits</string>
-    <string name="label_ok">OK</string>
-    <string name="label_cancel">Cancel</string>
-    <string name="label_close">Close</string>
-    <string name="label_wallet_advanced_details">Touch for detailed information</string>
+    <string name="label_login_wallets">Monujoj</string>
+    <string name="label_credits">Danke al</string>
+    <string name="label_ok">Bone</string>
+    <string name="label_cancel">Nuligi</string>
+    <string name="label_close">Fermi</string>
+    <string name="label_wallet_advanced_details">Tuŝi por pli detalajn informojn</string>
 
-    <string name="label_send_success">Successfully sent</string>
-    <string name="label_send_done">Done</string>
+    <string name="label_send_success">Sendo sukcesa</string>
+    <string name="label_send_done">Farite</string>
 
-    <string name="label_receive_info_gen_qr_code">Touch for QR Code</string>
-    <string name="info_send_prio_fees">Higher Priority = Higher Fees</string>
+    <string name="label_receive_info_gen_qr_code">Tuŝi por QR kodon</string>
+    <string name="info_send_prio_fees">Pli alta urĝeco = pli altaj kotizoj</string>
 
-    <string name="info_xmrto_enabled">BTC payment enabled, tap for more info.</string>
-    <string name="info_crazypass_enabled">CrAzYpass enabled, tap for more info.</string>
-    <string name="info_ledger_enabled">Ledger enabled, tap for more info.</string>
+    <string name="info_xmrto_enabled">Pagi en BTC ebligita, tuŝi por pli da informo</string>
+    <string name="info_crazypass_enabled">CrAzYpass ebligita, tuŝi por pli da informo</string>
+    <string name="info_ledger_enabled">Ledger ebligita, tuŝi por pli da informo</string>
 
     <string name="info_xmrto"><![CDATA[
-        <b>You entered a Bitcoin address.</b><br/>
-        <i>You&apos;ll send XMR and the receiver will get BTC using the <b>XMR.TO</b> service.</i>
+        <b>Vi enmetis Bitmonan adreson.</b><br/>
+        <i>Vi sendos XMR kaj la ricevanto ekhavos Bitmonon per la servo de <b>XMR.TO</b>.</i>
     ]]></string>
 
-    <string name="info_send_xmrto_success_order_label">XMR.TO Order</string>
+    <string name="info_send_xmrto_success_order_label">Mendo de XMR.TO</string>
 
     <string name="info_send_xmrto_success_btc">%1$s BTC</string>
 
-    <string name="info_send_xmrto_paid">Confirmation Pending</string>
-    <string name="info_send_xmrto_unpaid">Payment Pending</string>
-    <string name="info_send_xmrto_error">XMR.TO Error (%1$s)</string>
-    <string name="info_send_xmrto_sent">BTC Sent!</string>
-    <string name="info_send_xmrto_query">Querying &#8230;</string>
+    <string name="info_send_xmrto_paid">Atendas konfirmiĝon</string>
+    <string name="info_send_xmrto_unpaid">Pago atendas</string>
+    <string name="info_send_xmrto_error">Eraro de XMR.TO (%1$s)</string>
+    <string name="info_send_xmrto_sent">BTC Sendite!</string>
+    <string name="info_send_xmrto_query">Informpetas &#8230;</string>
 
     <string name="info_send_xmrto_parms"><![CDATA[
-        <b>You can send %1$s &#8212; %2$s BTC</b>.<br/>
-        <i><b>XMR.TO</b> is giving you an exchange rate of <b>%3$s BTC</b> <u>right now</u></i>.
+        <b>Vi povas sendi %1$s &#8212; %2$s BTC</b>.<br/>
+        <i><b>XMR.TO</b> ofertas kurzon de <b>%3$s BTC</b> <u>ĝuste nun</u></i>.
     ]]></string>
     <string name="info_send_xmrto_zeroconf"><![CDATA[
-        <i>Amounts up to <b>%1$s BTC</b> will be sent <u>instantly</u>!</i>
+        <i>Sumoj ĝis <b>%1$s BTC</b> sendiĝos <u>tuj</u>!</i>
     ]]></string>
 
-    <string name="send_available_btc">Balance: %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">Bilanco: %2$s BTC (%1$s XMR)</string>
 
-    <string name="info_paymentid_intergrated">Payment ID integrated</string>
-    <string name="info_prepare_tx">Preparing your transaction</string>
+    <string name="info_paymentid_intergrated">Payment ID integrated]</string>
+    <string name="info_prepare_tx">Preparante vian transakcion</string>
 
-    <string name="label_send_progress_xmrto_create">Creating XMR.TO Order</string>
-    <string name="label_send_progress_xmrto_query">Querying XMR.TO Order</string>
-    <string name="label_send_progress_create_tx">Preparing Monero Transaction</string>
+    <string name="label_send_progress_xmrto_create">Kreante mendon por XMR.TO</string>
+    <string name="label_send_progress_xmrto_query">Informpetante pri la mendo al XMR.TO</string>
+    <string name="label_send_progress_create_tx">Preparante Moneran transakcion</string>
 
-    <string name="label_send_progress_queryparms">Querying XMR.TO parameters</string>
+    <string name="label_send_progress_queryparms">Petante parametrojn de XMR.TO </string>
 
-    <string name="label_generic_xmrto_error">XMR.TO ERROR</string>
-    <string name="text_generic_xmrto_error">Code: %1$d</string>
+    <string name="label_generic_xmrto_error">ERARO DE XMR.TO</string>
+    <string name="text_generic_xmrto_error">Kodo: %1$d</string>
 
-    <string name="text_retry">Touch to retry</string>
-    <string name="text_noretry_monero">Now we\'re stuck here!</string>
-    <string name="text_noretry">Uh-oh, XMR.TO does not seem be available right now!</string>
+    <string name="text_retry">Tuŝi por reprovi</string>
+    <string name="text_noretry_monero">Now we\'re stuck here!]</string>
+    <string name="text_noretry">Ho ve, XMR.TO verŝajne ne disponeblas ĝuste nun!</string>
 
     <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
     <string name="text_send_btc_rate">(Rate: %1$s BTC/XMR)</string>
@@ -151,7 +149,7 @@
     <string name="label_wallet_receive">Receive</string>
     <string name="label_wallet_send">Give</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR unconfirmed</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s XMR unconfirmed</string>​
 
     <string name="service_description">monerujo Service</string>
 
@@ -320,7 +318,173 @@
         <item>XMR</item>
         <item>EUR</item>
         <item>USD</item>
-        <item>JPY</item>
+        <item>JPY</item>274
+
+    <string name="tx_blockheight">Block</string>
+
+275
+
+    <string name="tx_amount">Amount</string>
+
+276
+
+    <string name="tx_amount_btc">Amount\n(BTC)</string>
+
+277
+
+    <string name="tx_fee">Fee</string>
+
+278
+
+    <string name="tx_transfers">Transfers</string>
+
+279
+
+    <string name="tx_notes">Notes</string>
+
+280
+
+    <string name="tx_notes_hint">(optional)</string>
+
+281
+
+    <string name="tx_button_notes">Save</string>
+
+282
+
+    <string name="tx_notes_set_failed">Notes saved failed</string>
+
+283
+
+    <string name="tx_title">Transaction Details</string>
+
+284
+
+​
+
+285
+
+    <string name="tx_pending">PENDING</string>
+
+286
+
+    <string name="tx_failed">FAILED</string>
+
+287
+
+​
+
+288
+
+    <string name="receive_paymentid_hint">Payment ID (optional)</string>
+
+289
+
+    <string name="receive_amount_hint">Amount</string>
+
+290
+
+    <string name="receive_desc_hint">Description (optional)</string>
+
+291
+
+    <string name="receive_cannot_open">Could not open wallet!</string>
+
+292
+
+    <string name="receive_paymentid_invalid">16 or 64 Hex characters (0&#8211;9,a&#8211;f)</string>
+
+293
+
+    <string name="receive_integrated_paymentid_invalid">Must be empty with integrated address</string>
+
+294
+
+​
+
+295
+
+    <string name="receive_amount_too_big">Max. %1$s</string>
+
+296
+
+    <string name="receive_amount_negative">Min. 0</string>
+
+297
+
+    <string name="receive_amount_nan">XMR not a number</string>
+
+298
+
+​
+
+299
+
+    <string name="receive_title">Receive</string>
+
+300
+
+​
+
+301
+
+    <string name="details_alert_message">Sensitive data will now be shown.\nLook over your shoulder!</string>
+
+302
+
+    <string name="details_alert_yes">I\'m safe</string>
+
+303
+
+    <string name="details_alert_no">Take me back!</string>
+
+304
+
+    <string name="details_title">Details</string>
+
+305
+
+​
+
+306
+
+    <string name="archive_alert_message">The wallet will be backed up and then deleted!</string>
+
+307
+
+    <string name="archive_alert_yes">Yes, do that!</string>
+
+308
+
+    <string name="archive_alert_no">No thanks!</string>
+
+309
+
+​
+
+310
+
+    <string-array name="priority">
+
+311
+
+        <item>Priority Default</item>
+
+312
+
+        <item>Priority Low</item>
+
+313
+
+        <item>Priority Medium</item>
+
+314
+
+        <item>Priority High</item>
+
+315
+
+    </string-array>
         <item>GBP</item>
         <item>CHF</item>
         <item>CAD</item>
