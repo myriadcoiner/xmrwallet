@@ -131,28 +131,28 @@
     <string name="prompt_changepw">Nova pasfrazo por %1$s</string>
     <string name="prompt_changepwB">Reenmetu la pasfrazon por %1$s</string>
     <string name="prompt_password">Pasvorton por %1$s</string>
-    <string name="prompt_fingerprint_auth">You can also open wallet using fingerprint.\nPlease touch sensor.</string>
-    <string name="prompt_send_password">Confirm Password</string>
-    <string name="prompt_open_wallet">Opening the wallet&#8230;</string>
-    <string name="bad_fingerprint">Fingerprint not recognized. Try again.</string>
-    <string name="bad_password">Incorrect password!</string>
-    <string name="bad_saved_password">Saved password is incorrect.\nPlease enter password manually.</string>
-    <string name="bad_wallet">Wallet does not exist!</string>
-    <string name="prompt_daemon_missing">Daemon address must be set!</string>
-    <string name="prompt_wrong_net">Wallet does not match selected net</string>
+    <string name="prompt_fingerprint_auth">Ankaŭ vi povas malfermi monujon fingrospure.\nBonvolu tuŝi sensilon.</string>
+    <string name="prompt_send_password">Konfirmi Pasvorton</string>
+    <string name="prompt_open_wallet">Malfermiĝas la monujo..&#8230;</string>
+    <string name="bad_fingerprint">La fingrospuro ne rekoniĝas. Provu denove.</string>
+    <string name="bad_password">Malĝusta pasvorto!</string>
+    <string name="bad_saved_password">Savita pasvorto ne ĝustas.\nBonvole enmeti pasvorton permane.</string>
+    <string name="bad_wallet">Tia monujo ne ekzistas!</string>
+    <string name="prompt_daemon_missing">Demona adreso devas esti agordita!</string>
+    <string name="prompt_wrong_net">Wallet does not match selected net]</string>
 
-    <string name="label_watchonly">(Watch Only)</string>
+    <string name="label_watchonly">(Nur Spekti)</string>
 
-    <string name="label_wallet_receive">Receive</string>
-    <string name="label_wallet_send">Give</string>
+    <string name="label_wallet_receive">Ricevi</string>
+    <string name="label_wallet_send">Doni</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR unconfirmed</string>​
+    <string name="xmr_unconfirmed_amount">+ %1$s XMR konfirmite</string>​
 
-    <string name="service_description">monerujo Service</string>
+    <string name="service_description">monerujo Service]</string>
 
-    <string name="status_synced">Synced:</string>
-    <string name="status_remaining">Blocks remaining</string>
-    <string name="status_syncing">Scanning:</string>
+    <string name="status_synced">Sinkronigite:</string>
+    <string name="status_remaining">Blokoj restas</string>
+    <string name="status_syncing">Skanas:</string>
 
     <string name="message_strorage_not_writable">External Storage is not writable! Panic!</string>
     <string name="message_strorage_not_permitted">We really need those External Storage permissions!</string>
