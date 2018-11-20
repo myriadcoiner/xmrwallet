@@ -45,6 +45,8 @@
     <string name="info_send_xmrto_success_btc">%1$s BTC</string>
 
     <string name="info_send_xmrto_paid">Atendas konfirmiĝon</string>
+r45:Dr
+    <string name="send_address_hint">Adreso aŭ OpenAlias de la ricevanto por XMR/BTC</string>
     <string name="info_send_xmrto_unpaid">Pago atendas</string>
     <string name="info_send_xmrto_error">Eraro de XMR.TO (%1$s)</string>
     <string name="info_send_xmrto_sent">BTC Sendite!</string>
@@ -60,7 +62,7 @@
 
     <string name="send_available_btc">Bilanco: %2$s BTC (%1$s XMR)</string>
 
-    <string name="info_paymentid_intergrated">Payment ID integrated]</string>
+    <string name="info_paymentid_intergrated">Paga ID integrated]</string>
     <string name="info_prepare_tx">Preparante vian transakcion</string>
 
     <string name="label_send_progress_xmrto_create">Kreante mendon por XMR.TO</string>
@@ -154,27 +156,27 @@
     <string name="status_remaining">Blokoj restas</string>
     <string name="status_syncing">Skanas:</string>
 
-    <string name="message_strorage_not_writable">External Storage is not writable! Panic!</string>
-    <string name="message_strorage_not_permitted">We really need those External Storage permissions!</string>
-    <string name="message_camera_not_permitted">No camera = No QR scanning!</string>
+    <string name="message_strorage_not_writable">Ne eblas skribi al la Ekstera Memorilo! Mi panikas!</string>
+    <string name="message_strorage_not_permitted">Ni vere bezonas aliron al la Ekstera Memorilo!</string>
+    <string name="message_camera_not_permitted">Sen kamerao = Ne eblas QR-kodojn skani!</string>
 
-    <string name="label_copy_viewkey">View Key</string>
-    <string name="label_copy_address">Public Address</string>
-    <string name="label_copy_xmrtokey">XMR.TO Key</string>
-    <string name="message_copy_viewkey">View Key copied to clipboard!</string>
-    <string name="message_copy_xmrtokey">XMR.TO Key copied to clipboard!</string>
-    <string name="message_copy_address">Wallet Address copied to clipboard!</string>
-    <string name="message_copy_txid">Transaction ID copied to clipboard!</string>
-    <string name="message_nocopy">Copy disabled for security reasons!</string>
+    <string name="label_copy_viewkey">Vidŝlosilo</string>
+    <string name="label_copy_address">Publika Adreso</string>
+    <string name="label_copy_xmrtokey">Ŝlosilo de XMR.TO</string>
+    <string name="message_copy_viewkey">Vidŝlosilo kopiite al la tondujo!</string>
+    <string name="message_copy_xmrtokey">Ŝlosilo de XMR.TO kopiite al la tondujo!</string>
+    <string name="message_copy_address">Monuja Adreso kopiite al la tondujo!</string>
+    <string name="message_copy_txid">Transakcia ID kopiite al la tondujo!</string>
+    <string name="message_nocopy">Kopiado malebligite pro sekureca kialo!</string>
 
-    <string name="message_exchange_failed">Cannot get exchange rate!\nUse XMR/XMR or try again</string>
+    <string name="message_exchange_failed">Ne eblas ricevi la kurzon!\nUzu XMR/XMR-n aŭ provu denove</string>
 
-    <string name="generate_title">Create Wallet</string>
-    <string name="generate_name_hint">Wallet Name</string>
-    <string name="generate_password_hint">Wallet Passphrase</string>
-    <string name="generate_fingerprint_hint">Allow to open wallet using fingerprint</string>
+    <string name="generate_title">Kreu Monujon</string>
+    <string name="generate_name_hint">Nomo de la Monujo</string>
+    <string name="generate_password_hint">Pasfrazo de la Monujo</string>
+    <string name="generate_fingerprint_hint">Permesi malfermon de la monujo per fingrospuro</string>
     <string name="generate_fingerprint_warn"><![CDATA[
-        <strong>Fingerprint Authentication</strong>
+        <strong>Fingrospura Aŭtentikigo</strong>
         <p>With fingerprint authentication enabled, you can view wallet balance and receive funds
         without entering password.</p>
         <p>But for additional security, monerujo will still require you to enter password when
@@ -184,302 +186,173 @@
         able to peep into your wallet balance.</p>
         <p>For instance, a malicious user around you can open your wallet when you are asleep.</p>
         <strong>Are you sure to enable this function?</strong>
-    ]]></string>
-    <string name="generate_bad_passwordB">Passphrases do not match</string>
-    <string name="generate_empty_passwordB">Passphrase may not be empty</string>
-    <string name="generate_buttonGenerate">Make me a wallet already!</string>
-    <string name="generate_button_accept">I have noted the mnemonic seed</string>
+    ]]>]</string>
+    <string name="generate_bad_passwordB">Pasfrazoj ne samas</string>
+    <string name="generate_empty_passwordB">Pasfrazoj devas ne esti malplenaj</string>
+    <string name="generate_buttonGenerate">Faru por mi monujon jam!</string>
+    <string name="generate_button_accept">Mi registris la memorhelpilan semon]</string>
 
-    <string name="generate_wallet_name">Give me a name!</string>
-    <string name="generate_wallet_exists">Wallet exists!</string>
-    <string name="generate_wallet_dot">Cannot begin with .</string>
-    <string name="generate_wallet_creating">Creating wallet</string>
-    <string name="generate_wallet_created">Wallet created</string>
-    <string name="generate_wallet_create_failed">Wallet create failed</string>
+    <string name="generate_wallet_name">Donu al mi nomon!</string>
+    <string name="generate_wallet_exists">Monujo ekzistas!</string>
+    <string name="generate_wallet_dot">Ne eblas komenci per .</string>
+    <string name="generate_wallet_creating">Monujo kreiĝas</string>
+    <string name="generate_wallet_created">Monujo kreite</string>
+    <string name="generate_wallet_create_failed">Monujo kreiĝis nesukcese</string>
 
-    <string name="generate_restoreheight_error">Enter Number or Date (YYYY-MM-DD)</string>
+    <string name="generate_restoreheight_error">Enmetu numeron aŭ dafon (JJJJ-MM-TT)</string>
 
-    <string name="generate_wallet_type_key">Keys</string>
-    <string name="generate_wallet_type_new">New</string>
-    <string name="generate_wallet_type_seed">Seed</string>
-    <string name="generate_wallet_type_view">View</string>
-    <string name="generate_wallet_type_ledger" translatable="false">Ledger</string>
+    <string name="generate_wallet_type_key">Ŝlosiloj</string>
+    <string name="generate_wallet_type_new">Nova</string>
+    <string name="generate_wallet_type_seed">Semo</string>
+    <string name="generate_wallet_type_view">Vidi</string>
 
-    <string name="generate_address_hint">Public Address</string>
-    <string name="generate_viewkey_hint">View Key</string>
-    <string name="generate_spendkey_hint">Spend Key</string>
-    <string name="generate_mnemonic_hint">25-Word Mnemonic Seed</string>
-    <string name="generate_restoreheight_hint">Restore Height or Date (YYYY-MM-DD)</string>
+    <string name="generate_address_hint">Publika Adreso</string>
+    <string name="generate_viewkey_hint">Vidŝlosilo</string>
+    <string name="generate_spendkey_hint">Elspezŝlosilo</string>
+    <string name="generate_mnemonic_hint">25-Vorta Memorhelpila Semo]</string>
+    <string name="generate_restoreheight_hint">Restore Height or Date (YYYY-MM-DD)]</string>
 
-    <string name="generate_address_label">Public Address</string>
-    <string name="generate_viewkey_label">View Key</string>
-    <string name="generate_spendkey_label">Spend Key</string>
-    <string name="generate_mnemonic_label">Mnemonic Seed</string>
-    <string name="generate_crazypass_label">Wallet Files Restore Password</string>
+    <string name="generate_address_label">Publika Adreso</string>
+    <string name="generate_viewkey_label">Vidŝlosilo</string>
+    <string name="generate_spendkey_label">Elspezŝlosilo</string>
+    <string name="generate_mnemonic_label">Memorhelpa Semo</string>
+    <string name="generate_crazypass_label">Wallet Files Restore Password]</string>
 
-    <string name="generate_check_key">Enter valid Key</string>
-    <string name="generate_check_address">Enter valid Address</string>
-    <string name="generate_check_mnemonic">Enter your 25 word seed</string>
+    <string name="generate_check_key">Enmetu validan ŝlosilon</string>
+    <string name="generate_check_address">Enmetu validan adreson</string>
+    <string name="generate_check_mnemonic">Enmetu vian 25-vortan semon</string>
 
-    <string name="send_amount_btc_xmr">%1$s (indicative)</string>
+    <string name="send_amount_btc_xmr">%1$s (indicative)]</string>
 
-    <string name="send_address_hint">Receiver\'s XMR/BTC Address or OpenAlias</string>
-    <string name="send_paymentid_hint">Payment ID (optional)</string>
+    <string name="send_address_hint">Adreso aŭ OpenAlias de la ricevanto por XMR/BTC</string>
+    <string name="send_paymentid_hint">Paga ID (nedevige)</string>
     <string name="send_amount_hint">0.00</string>
-    <string name="send_notes_hint">Private Notes (optional)</string>
-    <string name="send_generate_paymentid_hint">Generate</string>
-    <string name="send_qr_hint" translatable="false">Scan</string>
-    <string name="send_send_label">Spend my sweet Moneroj</string>
-    <string name="send_send_timed_label">Spend my sweet Moneroj (%1$s)</string>
-    <string name="send_qr_invalid">Not a QR Code</string>
-    <string name="send_qr_address_invalid">Not a valid payment QR code</string>
-    <string name="send_address_invalid">Not a valid address</string>
-    <string name="send_address_not_openalias">OpenAlias address not available</string>
-    <string name="send_address_openalias">OpenAlias secure &#x2714;</string>
-    <string name="send_address_resolve_openalias">Resolving OpenAlias&#8230;</string>
-    <string name="send_address_no_dnssec">OpenAlias without DNSSEC - address may be spoofed</string>
-    <string name="send_title">Send</string>
-    <string name="send_available">Balance: %1$s XMR</string>
-    <string name="send_address_title">Address</string>
-    <string name="send_amount_title">Amount</string>
-    <string name="send_confirm_title">Confirm</string>
-    <string name="send_success_title">Done</string>
+    <string name="send_notes_hint">Privataj Notoj (nedevige)</string>
+    <string name="send_generate_paymentid_hint">Krei</string>
+    <string name="send_send_label">Elspezi miajn belajn Monerojn</string>
+    <string name="send_send_timed_label">Elspezi miajn beljn Monerojn (%1$s)</string>
+    <string name="send_qr_invalid">Tio ne estas QR-Kodo</string>
+    <string name="send_qr_address_invalid">Tio ne estas valida paga QR-kodo</string>
+    <string name="send_address_invalid">Tio ne estas valida adreso</string>
+    <string name="send_address_not_openalias">La adreso de OpenAlias ne disponeblas</string>
+    <string name="send_address_openalias">OpenAlias sekure &#x2714;</string>
+    <string name="send_address_resolve_openalias">Resolving OpenAlias&#8230;]</string>
+    <string name="send_address_no_dnssec">OpenAlias sen DNSSEC - la adreso eble mistifikitas</string>
+    <string name="send_title">Sendi</string>
+    <string name="send_available">Bilanco: %1$s XMR</string>
+    <string name="send_address_title">Adreso</string>
+    <string name="send_amount_title">Sumo</string>
+    <string name="send_confirm_title">Konfirmi</string>
+    <string name="send_success_title">Finite[</string>
 
-    <string name="send_amount_label">Amount</string>
-    <string name="send_fee_btc_label">Fee (XMR)</string>
-    <string name="send_fee_label">Fee</string>
-    <string name="send_total_btc_label">Total (XMR)</string>
-    <string name="send_total_label">Total</string>
+    <string name="send_amount_label">Sumo</string>
+    <string name="send_fee_btc_label">Kotizo (XMR)</string>
+    <string name="send_fee_label">Kotizo</string>
+    <string name="send_total_btc_label">Sume (XMR)</string>
+    <string name="send_total_label">Sume</string>
 
     <string name="send_amount">%1$s XMR</string>
-    <string name="send_fee">+%1$s Fee</string>
+    <string name="send_fee">+%1$s kiel kotizo[</string>
 
-    <string name="send_create_tx_error_title">Create Transaction Error</string>
+    <string name="send_create_tx_error_title">Eraro okazis Kreante Transakcion/</string>
 
-    <string name="tx_list_fee">- Fee %1$s</string>
+    <string name="tx_list_fee">- -Kotizo %1$s</string>
     <string name="tx_list_amount_failed">(%1$s)</string>
-    <string name="tx_list_failed_text">failed</string>
+    <string name="tx_list_failed_text">malsukcesis</string>
     <string name="tx_list_amount_negative">- %1$s</string>
     <string name="tx_list_amount_positive">+ %1$s</string>
 
-    <string name="tx_timestamp">Timestamp</string>
-    <string name="tx_id">TX ID</string>
-    <string name="tx_key">TX Key</string>
-    <string name="tx_destination">Destination</string>
-    <string name="tx_destination_btc">Destination\n(BTC)</string>
-    <string name="tx_paymentId">Payment ID</string>
-    <string name="tx_blockheight">Block</string>
-    <string name="tx_amount">Amount</string>
-    <string name="tx_amount_btc">Amount\n(BTC)</string>
-    <string name="tx_fee">Fee</string>
-    <string name="tx_transfers">Transfers</string>
-    <string name="tx_notes">Notes</string>
-    <string name="tx_notes_hint">(optional)</string>
-    <string name="tx_button_notes">Save</string>
-    <string name="tx_notes_set_failed">Notes saved failed</string>
-    <string name="tx_title">Transaction Details</string>
+    <string name="tx_timestamp">Tempindiko</string>
+    <string name="tx_id">Tks ID</string>
+    <string name="tx_key">Tks Ŝlos</string>
+    <string name="tx_destination">Celo</string>
+    <string name="tx_destination_btc">Celo\n(BTC)</string>
+    <string name="tx_paymentId">Paga ID</string>
+    <string name="tx_blockheight">Bloko</string>
+    <string name="tx_amount">Sumo</string>
+    <string name="tx_amount_btc">Sumo\n(BTC)</string>
+    <string name="tx_fee">Kotizo</string>
+    <string name="tx_transfers">Transdonoj</string>
+    <string name="tx_notes">Notoj</string>
+    <string name="tx_notes_hint">(nedevige)</string>
+    <string name="tx_button_notes">Savi</string>
+    <string name="tx_notes_set_failed">Malsukcesis savi notojn</string>
+    <string name="tx_title">Transakciaj Detaloj</string>
 
-    <string name="tx_pending">PENDING</string>
-    <string name="tx_failed">FAILED</string>
+    <string name="tx_pending">ATENDAS</string>
+    <string name="tx_failed">MALSUKCESIS</string>
 
-    <string name="receive_paymentid_hint">Payment ID (optional)</string>
-    <string name="receive_amount_hint">Amount</string>
-    <string name="receive_desc_hint">Description (optional)</string>
-    <string name="receive_cannot_open">Could not open wallet!</string>
-    <string name="receive_paymentid_invalid">16 or 64 Hex characters (0&#8211;9,a&#8211;f)</string>
-    <string name="receive_integrated_paymentid_invalid">Must be empty with integrated address</string>
+    <string name="receive_paymentid_hint">Paga ID (nedevige)</string>
+    <string name="receive_amount_hint">Sumo</string>
+    <string name="receive_desc_hint">Priskribo (nedevige)</string>
+    <string name="receive_cannot_open">Ne sukcesis malfermi la monujon!</string>
+    <string name="receive_paymentid_invalid">16 aŭ 64 Deksesumaj signoj (0&#8211;9,a&#8211;f)</string>
+    <string name="receive_integrated_paymentid_invalid">Ĝi devas esti malplena kun integrita adreso</string>
 
-    <string name="receive_amount_too_big">Max. %1$s</string>
+    <string name="receive_amount_too_big">Maks. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">XMR not a number</string>
+    <string name="receive_amount_nan">XMR ne estas nombro</string>
 
-    <string name="receive_title">Receive</string>
+    <string name="receive_title">Ricevi</string>
 
-    <string name="details_alert_message">Sensitive data will now be shown.\nLook over your shoulder!</string>
-    <string name="details_alert_yes">I\'m safe</string>
-    <string name="details_alert_no">Take me back!</string>
-    <string name="details_title">Details</string>
+    <string name="details_alert_message">Konfidencaj datumoj nun montriĝos. \nRigardu malantaŭ vian ŝultron!</string>
+    <string name="details_alert_yes">Mi sekuras</string>
+    <string name="details_alert_no">Revenigu min!</string>
+    <string name="details_title">Detaloj</string>
 
-    <string name="archive_alert_message">The wallet will be backed up and then deleted!</string>
-    <string name="archive_alert_yes">Yes, do that!</string>
-    <string name="archive_alert_no">No thanks!</string>
+    <string name="archive_alert_message">La monujo estos sekurkopiita kaj sekve forigita!</string>
+    <string name="archive_alert_yes">Jes, faru tion!</string>
+    <string name="archive_alert_no">Ne, dankon!</string>
 
     <string-array name="priority">
-        <item>Priority Default</item>
-        <item>Priority Low</item>
-        <item>Priority Medium</item>
-        <item>Priority High</item>
+        <item>Graveco Defaŭlta</item>
+        <item>Graveco Malalta </item>
+        <item>Graveco Meza</item>
+        <item>Graveco Alta</item>
     </string-array>
 
-    <string-array name="currency" translatable="false">
-        <item>XMR</item>
-        <item>EUR</item>
-        <item>USD</item>
-        <item>JPY</item>274
+    <string name="tx_blockheight">Bloko</string>
+    <string name="tx_amount">Sumo</string>
+    <string name="tx_amount_btc">Sumo\n(BTC)</string>
+    <string name="tx_fee">Kotizo</string>
+    <string name="tx_transfers">Transdonoj</string>
+    <string name="tx_notes">Notoj</string>
+    <string name="tx_notes_hint">(nedevige)</string>
+    <string name="tx_button_notes">Savi</string>
+    <string name="tx_notes_set_failed">Savi notojn malsukcesis</string>-
+    <string name="tx_title">Transakciaj Detaloj</string>
 
-    <string name="tx_blockheight">Block</string>
+    <string name="tx_pending">ATENDAS</string>
+    <string name="tx_failed">MALSUKCESIS</string>
 
-275
+    <string name="receive_paymentid_hint">Paga ID (nedevige)</string>
+    <string name="receive_amount_hint">Sumo</string>
+    <string ame="receive_desc_hint">Priskribo (nedevige)</string>
+    <string name="receive_cannot_open">Ne eblis malfermi la monujon!</string>
+    <string name="receive_paymentid_invalid">16 aŭ 64 Deksesumaj signoj (0&#8211;9,a&#8211;f)</string>
 
-    <string name="tx_amount">Amount</string>
+    <string name="receive_integrated_paymentid_invalid">Ĝi devas esti malplena kun integrita adreso</string>
 
-276
-
-    <string name="tx_amount_btc">Amount\n(BTC)</string>
-
-277
-
-    <string name="tx_fee">Fee</string>
-
-278
-
-    <string name="tx_transfers">Transfers</string>
-
-279
-
-    <string name="tx_notes">Notes</string>
-
-280
-
-    <string name="tx_notes_hint">(optional)</string>
-
-281
-
-    <string name="tx_button_notes">Save</string>
-
-282
-
-    <string name="tx_notes_set_failed">Notes saved failed</string>
-
-283
-
-    <string name="tx_title">Transaction Details</string>
-
-284
-
-​
-
-285
-
-    <string name="tx_pending">PENDING</string>
-
-286
-
-    <string name="tx_failed">FAILED</string>
-
-287
-
-​
-
-288
-
-    <string name="receive_paymentid_hint">Payment ID (optional)</string>
-
-289
-
-    <string name="receive_amount_hint">Amount</string>
-
-290
-
-    <string name="receive_desc_hint">Description (optional)</string>
-
-291
-
-    <string name="receive_cannot_open">Could not open wallet!</string>
-
-292
-
-    <string name="receive_paymentid_invalid">16 or 64 Hex characters (0&#8211;9,a&#8211;f)</string>
-
-293
-
-    <string name="receive_integrated_paymentid_invalid">Must be empty with integrated address</string>
-
-294
-
-​
-
-295
-
-    <string name="receive_amount_too_big">Max. %1$s</string>
-
-296
-
+    <string name="receive_amount_too_big">Maks. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
+    <string name="receive_amount_nan">XMR ne estas nombro</string>
 
-297
+    <string name="receive_title">Ricevi</string>
 
-    <string name="receive_amount_nan">XMR not a number</string>
+    <string name="details_alert_message">Konfidencaj datumoj nun montriĝos.\nRigardu malantaŭ vian ŝultron!</string>
+    <string name="details_alert_yes">Mi sekuras</string>
+    <string name="details_alert_no">Revenigu min!</string>
+    <string name="details_title">Detaloj</string>
 
-298
-
-​
-
-299
-
-    <string name="receive_title">Receive</string>
-
-300
-
-​
-
-301
-
-    <string name="details_alert_message">Sensitive data will now be shown.\nLook over your shoulder!</string>
-
-302
-
-    <string name="details_alert_yes">I\'m safe</string>
-
-303
-
-    <string name="details_alert_no">Take me back!</string>
-
-304
-
-    <string name="details_title">Details</string>
-
-305
-
-​
-
-306
-
-    <string name="archive_alert_message">The wallet will be backed up and then deleted!</string>
-
-307
-
-    <string name="archive_alert_yes">Yes, do that!</string>
-
-308
-
-    <string name="archive_alert_no">No thanks!</string>
-
-309
-
-​
-
-310
+    <string name="archive_alert_message">La monujo estos sekurkopiita kaj sekve forigita!</string>
+    <string name="archive_alert_yes">Jes, faru tion!</string>
+    <string name="archive_alert_no">Ne, dankon!</string>
 
     <string-array name="priority">
-
-311
-
-        <item>Priority Default</item>
-
-312
-
-        <item>Priority Low</item>
-
-313
-
-        <item>Priority Medium</item>
-
-314
-
-        <item>Priority High</item>
-
-315
+        <item>Graveco Defaŭlta</item>
+        <item>Graveco Malalta</item>
+        <item>Graveco Meza</item>
+        <item>Graveco Alta</item>
 
     </string-array>
         <item>GBP</item>
@@ -514,58 +387,50 @@
         <item>TWD</item>
     </string-array>
 
-    <string name="fab_create_new">Create new wallet</string>
-    <string name="fab_restore_viewonly">Restore view-only wallet</string>
-    <string name="fab_restore_key">Restore wallet from private keys</string>
-    <string name="fab_restore_seed">Restore wallet 25 word seed</string>
+    <string name="fab_create_new">Krei novan monujon</string>
+    <string name="fab_restore_viewonly">Restaŭri nurspektan monujon</string>
+    <string name="fab_restore_key">Restaŭri monujon per privataj ŝlosiloj</string>
+    <string name="fab_restore_seed">Restaŭri la 25-vortan semon de la monujo[</string>
 
-    <string name="accounts_balance" translatable="false">%1$s XMR</string>
-    <string name="tx_account_formatted" translatable="false">(%1$d, %2$d)</string>
+    <string name="accounts_drawer_new">Krei konton</string>
+    <string name="accounts_drawer_title">Kontoj</string>
+    <string name="accounts_new">Aldoni novan konton #%1$d</string>
+    <string name="tx_account">Konto #</string>
 
-    <string name="accounts_drawer_new">Create Account</string>
-    <string name="accounts_drawer_title">Accounts</string>
-    <string name="accounts_new">Added new account #%1$d</string>
-    <string name="tx_account">Account #</string>
+    <string name="send_sweepall">Sendi ĉiujn konfirmitajn fondojn en ĉi tiu konto!</string>
+    <string name="tx_subaddress">Subadreso #%1$d</string>
+    <string name="generate_address_label_sub">Publika Subadreso #%1$d</string>
 
-    <string name="send_sweepall">Send all confirmed funds in this account!</string>
-    <string name="tx_subaddress">Subaddress #%1$d</string>
-    <string name="generate_address_label_sub">Public Subaddress #%1$d</string>
+    <string name="menu_language">Lingvo</string>
+    <string name="language_system_default">Uzi Operaciuman Lingvon</string>
 
-    <string name="menu_language">Language</string>
-    <string name="language_system_default">Use System Language</string>
+    <string name="fab_restore_ledger">Restaŭri de Ledger Nano S</string>
 
-    <string name="fab_restore_ledger">Restore from Ledger Nano S</string>
+    <string name="progress_ledger_progress">Komunikas kun Ledger</string>
+    <string name="progress_ledger_confirm">Konfirmiĝo sur Ledger bezonate!</string>
+    <string name="progress_ledger_lookahead">Ricevas subadresojn</string>
+    <string name="progress_ledger_verify">Kontrolas ŝlosilojns</string>
+    <string name="progress_ledger_opentx">Faras frenezan matematikon</string>
+    <string name="progress_ledger_mlsag">Haketas aferojn</string>
+    <string name="open_wallet_ledger_missing">Bonvole (re)konekti la Ledger monujan aparaton</string>
 
-    <string name="progress_ledger_progress">Communicating with Ledger</string>
-    <string name="progress_ledger_confirm">Confirmation on Ledger required!</string>
-    <string name="progress_ledger_lookahead">Retrieving subaddresses</string>
-    <string name="progress_ledger_verify">Verifying keys</string>
-    <string name="progress_ledger_opentx">Doing crazy maths</string>
-    <string name="progress_ledger_mlsag">Hashing stuff</string>
-    <string name="open_wallet_ledger_missing">Please (re)connect Ledger device</string>
+    <string name="accounts_progress_new">Kreas konton</string>
+    <string name="accounts_progress_update">Ĝisdatigas la monujon</string>
 
-    <string name="accounts_progress_new">Creating account</string>
-    <string name="accounts_progress_update">Updating wallet</string>
+    <string name="toast_ledger_attached">%1$s almetite</string>
+    <string name="toast_ledger_detached">%1$s apartigite</string>
 
-    <string name="toast_ledger_attached">%1$s attached</string>
-    <string name="toast_ledger_detached">%1$s detached</string>
-
-    <string name="progress_nfc_write">Writing Tag</string>
-    <string name="nfc_write_failed">Writing Tag failed!</string>
-    <string name="nfc_write_successful">Writing Tag successful</string>
-    <string name="nfc_tag_unsupported">Tag does not support NDEF!</string>
-    <string name="nfc_tag_size">Tag provides %1$d bytes, but we need %2$d!</string>
-    <string name="nfc_tag_read_undef">I don\'t understand the Tag!</string>
-    <string name="nfc_tag_read_what">I don\'t know what you want!</string>
-    <string name="nfc_tag_read_success">Reading Tag successful</string>
+    <string name="progress_nfc_write">Skribas Etikedon</string>
+    <string name="nfc_write_failed">Skribi Etikedon malsukcesis!</string>
+    <string name="nfc_write_successful">Skribi Etikedon sukcesis!/string>
+    <string name="nfc_tag_unsupported">La etikedo ne havas eblecon por NDEF!</string>
+    <string name="nfc_tag_size">La etikedo disponigas %1$d bitojn, sed ni bezonas %2$d!</string>
+    <string name="nfc_tag_read_undef">Mi ne komprenas la etikedon!</string>
+    <string name="nfc_tag_read_what">Mi ne komprenas kion vi volas!</string>
+    <string name="nfc_tag_read_success">Legi la etikedon sukcesis</string>
     <string name="nfc_tag_tap">NFC Available!</string>
 
-    <string name="info_v9" translatable="false">V9 node required</string>
-
-    <string name="unknown_amount" translatable="false">\?\?\?</string>
-    <string name="text_streetmode" translatable="false">Street Mode</string>
-
-    <string name="menu_info">Show Secrets!</string>
-    <string name="menu_streetmode">Street Mode</string>
-    <string name="info_streetmode_enabled">Street Mode enabled, tap for more info.</string>
+    <string name="menu_info">Montri Sekretojn!</string>
+    <string name="menu_streetmode">Strata Reĝimo</string>
+    <string name="info_streetmode_enabled">Strata Reĝimo ebligite, alklaku por pli da inno..</string>
 </resources>
